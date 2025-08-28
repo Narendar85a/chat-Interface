@@ -1,0 +1,24 @@
+{
+    "avatars":[
+        {
+            "user_id":"01",
+            "user_name":"Tour guide",
+            "user_avatar":"/avatars/avatar1.png"
+        },
+        {
+            "user_id":"02",
+            "user_name":"Coder",
+            "user_avatar":"/avatars/avatar2.png"
+        },
+        {
+            "user_id":"03",
+            "user_name":"Friend1",
+            "user_avatar":"/avatars/avatar3.png"
+        },
+        {
+            "user_id":"04",
+            "user_name":"Friend2",
+            "user_avatar":"/avatars/avatar4.png"
+        }
+    ]
+}
