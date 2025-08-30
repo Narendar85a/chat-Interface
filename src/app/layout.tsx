@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="min-h-screen bg-background text-foreground">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -25,9 +25,19 @@ export default function RootLayout({
         >
           <Header />
 
-          <div className="flex">
+          <div className="flex pt-12">
+            {/* Sidebar Navbar for Desktop */}
+            <div className="hidden md:block w-64 border-r">
+              <Navbar />
+            </div>
+
+            {/* Main Content */}
+            <main className="flex-1 p-4 md:p-6">{children}</main>
+          </div>
+
+          {/* Bottom Navbar for Mobile */}
+          <div className="md:hidden fixed bottom-0 left-0 w-full border-t bg-background z-50">
             <Navbar />
-            <main className="flex-1 mt-12 p-6">{children}</main>
           </div>
         </ThemeProvider>
       </body>

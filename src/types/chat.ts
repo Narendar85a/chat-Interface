@@ -1,20 +1,16 @@
-export type FlatMessage = {
-  id: string;
-  sender: "user" | "ai";
+
+export type Message = {
+  id: string;            
+  sender: "user" | "bot";
   text: string;
+  timestamp: string;     
 };
 
-export type ChatUser = {
-  user_id: string;
-  user_name: string;
-  user_avatar: string;
-  chat_key: string;
+ export type ChatWindowProps = {
+  activeUser: { user_name: string; user_avatar: string; chat_key?: string };
+  messages: Message[];
+  onSend: (text: string) => void;
 };
-
-export type ChatWindowProps = {
-  activeUser: ChatUser;
-};
-
 export type ChatProfilesProps = {
   activeChat: string;
   onSelectChat: (chatId: string) => void;
