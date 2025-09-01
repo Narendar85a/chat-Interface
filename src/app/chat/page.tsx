@@ -6,7 +6,7 @@ import ChatWindow from "@/components/chat/chatWindow/ChatWindow";
 import avatarsData from "@/data/avatar_data.json";
 import mockConversation from "@/data/mock_conversation_data.json";
 
-// 🔹 Convert JSON messages into user + AI bubbles
+// Convert JSON messages into user + AI bubbles
 const mapJsonMessages = (jsonMessages: any[]) => {
   let result: any[] = [];
   jsonMessages.forEach((m) => {
@@ -48,7 +48,7 @@ export default function Chat() {
 
   const [activeChat, setActiveChat] = useState(avatarsData.avatars[0]);
   const [messagesByChat, setMessagesByChat] = useState(initialMessages);
-  const [showProfiles, setShowProfiles] = useState(true); //  mobile toggle
+  const [showProfiles, setShowProfiles] = useState(true); // mobile toggle
 
   const handleSend = (chatKey: string, text: string) => {
     const newMessage = {
@@ -69,9 +69,9 @@ export default function Chat() {
   };
 
   return (
-    <div className="flex h-[calc(100vh-3rem)]">
+    <div className="flex fixed left-0 md:left-auto top-[50px] h-[calc(100vh-50px)] w-full md:w-[85%]">
       {/* Desktop layout: sidebar + chat window */}
-      <div className="hidden md:block w-1/4 border-r">
+      <div className="hidden md:block w-1/4 border-r overflow-y-auto">
         <ChatProfiles
           activeChat={activeChat.chat_key}
           onSelectChat={(chatId) => {
@@ -81,7 +81,7 @@ export default function Chat() {
         />
       </div>
 
-      <div className="hidden md:flex flex-1 mt-au">
+      <div className="hidden md:flex flex-1 overflow-hidden">
         <ChatWindow
           activeUser={activeChat}
           messages={messagesByChat[activeChat.chat_key] || []}
@@ -89,34 +89,42 @@ export default function Chat() {
         />
       </div>
 
-      {/* Mobile layout: toggle between profiles and chat */}
-      <div className="md:hidden flex-1">
+      {/* Mobile layout: full width */}
+      <div className="md:hidden flex-1 flex flex-col w-full h-full overflow-hidden">
         {showProfiles ? (
-          <ChatProfiles
-            activeChat={activeChat.chat_key}
-            onSelectChat={(chatId) => {
-              const user = avatarsData.avatars.find((u) => u.chat_key === chatId);
-              if (user) setActiveChat(user);
-              setShowProfiles(false); // go to chat after selecting
-            }}
-          />
+          <div className="h-full overflow-y-auto w-full">
+            <ChatProfiles
+              activeChat={activeChat.chat_key}
+              onSelectChat={(chatId) => {
+                const user = avatarsData.avatars.find(
+                  (u) => u.chat_key === chatId
+                );
+                if (user) setActiveChat(user);
+                setShowProfiles(false); // go to chat after selecting
+              }}
+            />
+          </div>
         ) : (
-          <ChatWindow
-            activeUser={activeChat}
-            messages={messagesByChat[activeChat.chat_key] || []}
-            onSend={(text) => handleSend(activeChat.chat_key, text)}
-          />
+          <div className="flex-1 flex flex-col w-full h-full overflow-hidden">
+            <ChatWindow
+              activeUser={activeChat}
+              messages={messagesByChat[activeChat.chat_key] || []}
+              onSend={(text) => handleSend(activeChat.chat_key, text)}
+            />
+          </div>
         )}
 
-        {/* Mobile toggle button */}
-        <div className="fixed bottom-16 right-4 md:hidden">
-          <button
-            onClick={() => setShowProfiles((prev) => !prev)}
-            className="px-4 py-2 rounded-full bg-[#00a67e] text-white shadow-lg"
-          >
-            {showProfiles ? "Go to Chat" : "Back to Chats"}
-          </button>
-        </div>
+        {/* Mobile toggle button only visible when viewing user chat */}
+        {!showProfiles && (
+          <div className="fixed bottom-16 right-4 md:hidden">
+            <button
+              onClick={() => setShowProfiles(true)} // Go back to chat list
+              className="px-4 py-2 rounded-full bg-[#00a67e] text-white shadow-lg"
+            >
+              Back to Chats
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

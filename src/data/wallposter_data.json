@@ -1,0 +1,65 @@
+{
+    "persons":[
+        {
+            "person_id":"01",
+            "person_name":"Subhas Chandra bose",
+            "person_avatar":"/wallpics/bose.png",
+            "description":"He was a fearless freedom fighter and visionary leader of India’s independence movement. Founder of the Indian National Army (INA), he inspired millions with his call: “Give me blood, and I shall give you freedom!”"
+        },
+        {
+            "person_id":"02",
+            "person_name":"Srinivasa Ramanujan",
+            "person_avatar":"/wallpics/ramanujan.png",
+            "description":"A self-taught mathematical genius from India, Ramanujan made extraordinary contributions to number theory, infinite series, and mathematical analysis. Despite limited formal education, his groundbreaking formulas astonished scholars worldwide."
+        },
+        {
+            "person_id":"03",
+            "person_name":"Albert Einstein",
+            "person_avatar":"/wallpics/einstein.jpg",
+            "description":"The greatest physicists of all time, Einstein developed the Theory of Relativity, revolutionizing modern science. His famous equation E = mc² revealed the relationship between energy and mass."
+        },
+        {
+            "person_id":"04",
+            "person_name":"Dr. A.P.J. Abdul Kalam",
+            "person_avatar":"/wallpics/abdul_kalam.png",
+            "description":"The “Missile Man of India”, Dr. Kalam was a visionary scientist, aerospace engineer, and the 11th President of India. He played a key role in India’s space and missile programs, inspiring millions with his humility, wisdom, and dedication."
+        },
+        {
+            "person_id":"05",
+            "person_name":"Che Guevara",
+            "person_avatar":"/wallpics/che_guevara.png",
+            "description":"An Argentine revolutionary, physician, and writer, Che Guevara became a global symbol of resistance and social justice. He played a key role in the Cuban Revolution alongside Fidel Castro, fighting for equality and the rights of the oppressed."
+        },
+        {
+            "person_id":"06",
+            "person_name":"Michael Jackson",
+            "person_avatar":"/wallpics/jackson.jpg",
+            "description":"The “King of Pop”, Michael Jackson was a legendary singer, songwriter, and dancer who transformed the world of music and entertainment. With iconic hits like Thriller, Beat It, and Billie Jean, along with his signature dance moves like the Moonwalk, he inspired generations."
+        },
+        {
+            "person_id":"07",
+            "person_name":"Pang–Golden Retriever",
+            "person_avatar":"/wallpics/pang.jpg",
+            "description":"The Golden Retriever who bites her owners and loved ones. She is very possessive, does nothing but eat and sleep. A great athlete but not interested in playing — yet truly, she is the heart of the home."
+        },
+        {
+            "person_id":"08",
+            "person_name":"Nikola Tesla",
+            "person_avatar":"/wallpics/tesla.png",
+            "description":"A visionary inventor, engineer, and physicist, Nikola Tesla revolutionized the world with his work on alternating current (AC) electricity, wireless communication, and countless groundbreaking innovations. Known as the Master of Lightning."
+        },
+        {
+            "person_id":"09",
+            "person_name":"Sir Isaac Newton",
+            "person_avatar":"/wallpics/newton.png",
+            "description":"One of the greatest scientists in history, Newton discovered the laws of motion and universal gravitation, laying the foundation of classical physics. He also made pioneering contributions to optics and invented calculus. A true genius, his discoveries changed the way we understand the universe."
+        },
+        {
+            "person_id":"10",
+            "person_name":"Elon Musk",
+            "person_avatar":"/wallpics/musk.jpg",
+            "description":"A visionary entrepreneur and innovator, Elon Musk is the founder of SpaceX, Tesla, and several groundbreaking companies. Known for pushing the limits of technology, he aims to revolutionize space travel, renewable energy, and artificial intelligence."
+        }
+        
+    ]
+}

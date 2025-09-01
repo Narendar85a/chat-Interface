@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "../../ui/button";
-import { Input } from "../../ui/input";
+import { Textarea } from "../../ui/textarea";
 import { ChatInputProps } from "@/types";
 
 export default function ChatInput({ onSend }: ChatInputProps) {
@@ -16,7 +16,7 @@ export default function ChatInput({ onSend }: ChatInputProps) {
 
   return (
     <div className="flex items-center gap-2 sm:gap-4 p-2 sm:p-3 border-t bg-gray-50 dark:bg-gray-900">
-      <Input
+      <Textarea
         className="flex-1 text-sm sm:text-base rounded-xl shadow-[0_0_6px_#00a67e] focus:shadow-[0_0_10px_#00a67e] focus:outline-none transition-shadow"
         placeholder="Type your message..."
         value={value}
