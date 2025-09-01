@@ -48,7 +48,7 @@ export default function Chat() {
 
   const [activeChat, setActiveChat] = useState(avatarsData.avatars[0]);
   const [messagesByChat, setMessagesByChat] = useState(initialMessages);
-  const [showProfiles, setShowProfiles] = useState(true); // mobile toggle
+  const [showProfiles, setShowProfiles] = useState(true); 
 
   const handleSend = (chatKey: string, text: string) => {
     const newMessage = {
@@ -70,7 +70,7 @@ export default function Chat() {
 
   return (
     <div className="flex fixed left-0 md:left-auto top-[50px] h-[calc(100vh-50px)] w-full md:w-[85%]">
-      {/* Desktop layout: sidebar + chat window */}
+      {/* Desktop layout */}
       <div className="hidden md:block w-1/4 border-r overflow-y-auto">
         <ChatProfiles
           activeChat={activeChat.chat_key}
@@ -89,7 +89,7 @@ export default function Chat() {
         />
       </div>
 
-      {/* Mobile layout: full width */}
+      {/* Mobile layout */}
       <div className="md:hidden flex-1 flex flex-col w-full h-full overflow-hidden">
         {showProfiles ? (
           <div className="h-full overflow-y-auto w-full">
@@ -100,7 +100,7 @@ export default function Chat() {
                   (u) => u.chat_key === chatId
                 );
                 if (user) setActiveChat(user);
-                setShowProfiles(false); // go to chat after selecting
+                setShowProfiles(false); 
               }}
             />
           </div>
@@ -118,7 +118,7 @@ export default function Chat() {
         {!showProfiles && (
           <div className="fixed bottom-16 right-4 md:hidden">
             <button
-              onClick={() => setShowProfiles(true)} // Go back to chat list
+              onClick={() => setShowProfiles(true)} 
               className="px-4 py-2 rounded-full bg-[#00a67e] text-white shadow-lg"
             >
               Back to Chats

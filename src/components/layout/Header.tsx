@@ -20,7 +20,6 @@ export default function Header() {
 
   return (
     <>
-      {/* Header */}
       <header
         className="fixed top-0 left-0 w-full flex items-center justify-between 
                    px-4 sm:px-6 py-2 sm:py-3 
@@ -43,16 +42,15 @@ export default function Header() {
         <ToggleTheme />
       </header>
 
-      {/* Mobile Sidebar (drawer) */}
+      {/* Mobile Navbar */}
       {menuOpen && (
         <div className="fixed inset-0 z-50 md:hidden">
-          {/* Background overlay */}
+          
           <div
             className="absolute inset-0 bg-black/50"
             onClick={() => setMenuOpen(false)}
           />
 
-          {/* Drawer */}
           <div className="absolute top-0 left-0 h-full w-64 bg-gray-100 dark:bg-gray-900 p-4 shadow-lg flex flex-col gap-3">
             <button
               className="self-end mb-4 p-2 text-gray-700 dark:text-gray-200"
