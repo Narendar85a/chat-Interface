@@ -1,0 +1,704 @@
+{
+  "messages": [
+    {
+      "message_id": "msg_001",
+      "user_message": "Hi, can you help me plan a trip to Paris?",
+      "ai_response": "Of course! When are you planning to visit Paris, and what's your budget?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:20:05Z"
+    },
+    {
+      "message_id": "msg_002",
+      "user_message": "I'm thinking next month, around mid-September. Budget is about $2000 for a week.",
+      "ai_response": "Great! For a week in Paris with a $2000 budget, I suggest focusing on affordable accommodations like Airbnb or budget hotels in areas like Montmartre. Would you like me to suggest a daily itinerary?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:21:00Z"
+    },
+    {
+      "message_id": "msg_003",
+      "user_message": "Yes, please! Include some must-see sights and maybe a food tour.",
+      "ai_response": "Here's a quick itinerary: Day 1 - Visit the Eiffel Tower and Champ de Mars. Day 2 - Louvre Museum and a Seine River cruise. Day 3 - A food tour in Le Marais, tasting croissants and cheeses. Want me to expand on any of these?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:22:00Z"
+    },
+    {
+      "message_id": "msg_004",
+      "user_message": "Can you give more details on the food tour?",
+      "ai_response": "The Le Marais food tour could include stops at local patisseries for fresh croissants, a fromagerie for artisan cheeses, and a boulangerie for baguettes. Expect to spend about 3 hours exploring. Would you like specific vendor recommendations?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:23:00Z"
+    },
+    {
+      "message_id": "msg_005",
+      "user_message": "Yes, please recommend some vendors.",
+      "ai_response": "Try Pierre Hermé for macarons, Fromagerie Laurent Dubois for cheeses, and Poilâne for sourdough. Want me to book a guided tour or provide addresses?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:24:00Z"
+    },
+    {
+      "message_id": "msg_006",
+      "user_message": "Just the addresses, please.",
+      "ai_response": "Pierre Hermé: 4 Rue Cambon, 75001 Paris. Fromagerie Laurent Dubois: 47 Ter Bd Saint-Germain, 75005 Paris. Poilâne: 8 Rue du Cherche-Midi, 75006 Paris. Enjoy!",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:25:00Z"
+    },
+    {
+      "message_id": "msg_007",
+      "user_message": "What about some museums besides the Louvre?",
+      "ai_response": "Visit Musée d'Orsay for Impressionist art and Centre Pompidou for modern art. Both are within your budget with tickets around €15. Want details on their collections?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:26:00Z"
+    },
+    {
+      "message_id": "msg_008",
+      "user_message": "Tell me about Musée d'Orsay.",
+      "ai_response": "Musée d'Orsay houses works by Monet, Van Gogh, and Degas. It’s in a former train station, open 9:30 AM–6 PM, closed Mondays. Tickets are €14. Want a suggested time to visit?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:27:00Z"
+    },
+    {
+      "message_id": "msg_009",
+      "user_message": "Morning visit sounds good. What else can I do that day?",
+      "ai_response": "After Musée d'Orsay, stroll along the Seine to Notre-Dame, then relax at Jardin des Tuileries. Want dining options nearby?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:28:00Z"
+    },
+    {
+      "message_id": "msg_010",
+      "user_message": "Yes, affordable dining near Jardin des Tuileries.",
+      "ai_response": "Try Le Soufflé (36 Rue du Mont Thabor) for savory soufflés around €15 or Café de l’Empire (17 Rue du Bac) for salads under €12. Need reservations?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:29:00Z"
+    },
+    {
+      "message_id": "msg_011",
+      "user_message": "No reservations, just add a coffee shop nearby.",
+      "ai_response": "Café Kitsuné Tuileries (Jardin des Tuileries) offers great coffee for €3–5. Open 9 AM–6 PM. Want more evening activities?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:30:00Z"
+    },
+    {
+      "message_id": "msg_012",
+      "user_message": "Yes, what can I do in the evening?",
+      "ai_response": "Catch a cabaret show at Le Lido or a budget-friendly jazz night at Le Caveau de la Huchette for €15 entry. Interested in either?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:31:00Z"
+    },
+    {
+      "message_id": "msg_013",
+      "user_message": "Jazz sounds fun! Tell me more.",
+      "ai_response": "Le Caveau de la Huchette in the Latin Quarter hosts live jazz nightly from 9 PM. Entry is €15, drinks around €7. Arrive early for a good spot. Want transport tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:32:00Z"
+    },
+    {
+      "message_id": "msg_014",
+      "user_message": "Yes, how do I get there from Jardin des Tuileries?",
+      "ai_response": "Take Metro Line 1 from Tuileries to Saint-Michel, about 10 minutes, €2 ticket. Le Caveau is at 5 Rue de la Huchette. Need a map link?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:33:00Z"
+    },
+    {
+      "message_id": "msg_015",
+      "user_message": "No map, but what’s the vibe like at Le Caveau?",
+      "ai_response": "Le Caveau is cozy, with a lively crowd dancing to swing and jazz in a historic cellar. Expect a mix of locals and tourists. Want more nightlife options?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:34:00Z"
+    },
+    {
+      "message_id": "msg_016",
+      "user_message": "Sounds perfect. Any other budget activities for the week?",
+      "ai_response": "Explore Montmartre’s Sacré-Cœur (free entry), picnic at Parc des Buttes-Chaumont, or browse Marché aux Puces for vintage finds. Want details on any?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:35:00Z"
+    },
+    {
+      "message_id": "msg_017",
+      "user_message": "Tell me about the picnic spot.",
+      "ai_response": "Parc des Buttes-Chaumont has lush hills, a lake, and a temple viewpoint. Grab picnic supplies at Franprix nearby for €10–15. Best in late afternoon. Need picnic food ideas?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:36:00Z"
+    },
+    {
+      "message_id": "msg_018",
+      "user_message": "Yes, what food should I bring?",
+      "ai_response": "Pack baguette, brie, grapes, and a bottle of rosé for €12–15 total. Add a blanket for comfort. Want a specific Franprix address?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:37:00Z"
+    },
+    {
+      "message_id": "msg_019",
+      "user_message": "No address needed. Any free events in mid-September?",
+      "ai_response": "Check Paris Plages for free concerts or outdoor movie screenings, usually free in September. Want me to search for specific 2025 events?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:38:00Z"
+    },
+    {
+      "message_id": "msg_020",
+      "user_message": "Yes, search for events.",
+      "ai_response": "I can’t access real-time 2025 event data, but typically, Paris hosts free art fairs like Nuit Blanche in early fall. Check paris.fr closer to your trip. Want other activity ideas?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:39:00Z"
+    },
+    {
+      "message_id": "msg_021",
+      "user_message": "Sure, what else can I do on a budget?",
+      "ai_response": "Visit free exhibits at Petit Palais or join a free walking tour with Sandeman’s New Europe. Tips appreciated, around €5–10. Interested in either?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:40:00Z"
+    },
+    {
+      "message_id": "msg_022",
+      "user_message": "Tell me about the walking tour.",
+      "ai_response": "Sandeman’s offers 2–3 hour tours covering Notre-Dame, the Latin Quarter, and more. Daily at 10 AM and 2 PM, starting at Place Saint-Michel. Book online. Want the link?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:41:00Z"
+    },
+    {
+      "message_id": "msg_023",
+      "user_message": "Yes, please share the link.",
+      "ai_response": "Book at https://www.neweuropetours.eu/paris-tours/. Select the free tour option. Want me to summarize the full week’s itinerary?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:42:00Z"
+    },
+    {
+      "message_id": "msg_024",
+      "user_message": "Yes, summarize the itinerary.",
+      "ai_response": "Day 1: Eiffel Tower, Champ de Mars. Day 2: Louvre, Seine cruise. Day 3: Le Marais food tour. Day 4: Musée d'Orsay, Notre-Dame, Tuileries, jazz at Le Caveau. Day 5: Montmartre, Sacré-Cœur. Day 6: Parc des Buttes-Chaumont picnic. Day 7: Petit Palais, walking tour. Need budget breakdown?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:43:00Z"
+    },
+    {
+      "message_id": "msg_025",
+      "user_message": "Yes, give me a budget breakdown.",
+      "ai_response": "Accommodation: €700 (Airbnb). Food: €350 (meals, picnic). Attractions: €100 (Louvre, Musée d’Orsay, cruise). Transport: €50 (Metro). Jazz night: €25. Total: €1225, leaving €775 buffer. Want tips to save more?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:44:00Z"
+    },
+    {
+      "message_id": "msg_026",
+      "user_message": "Yes, how can I save more?",
+      "ai_response": "Use a Paris Pass for discounted museum entries, cook some meals at your Airbnb, and walk shorter distances instead of Metro. Want specific pass details?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:45:00Z"
+    },
+    {
+      "message_id": "msg_027",
+      "user_message": "Tell me about the Paris Pass.",
+      "ai_response": "The Paris Pass (around €130 for 4 days) includes Louvre, Musée d’Orsay, and a Seine cruise, plus Metro access. Buy at parispass.com. Worth it for your itinerary. Need help comparing options?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:46:00Z"
+    },
+    {
+      "message_id": "msg_028",
+      "user_message": "Compare it to individual tickets.",
+      "ai_response": "Paris Pass (€130): covers Louvre (€17), Musée d’Orsay (€14), cruise (€18), Metro (€20), saving €29 vs. €89 individual tickets. More savings with extra sites. Want to add more attractions?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:47:00Z"
+    },
+    {
+      "message_id": "msg_029",
+      "user_message": "Add one more attraction.",
+      "ai_response": "Visit Sainte-Chapelle for its stained glass, €11.50 or free with Paris Pass. Open 9 AM–5 PM. Want to adjust the itinerary?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:48:00Z"
+    },
+    {
+      "message_id": "msg_030",
+      "user_message": "Yes, add it to Day 4.",
+      "ai_response": "Updated Day 4: Musée d’Orsay, Sainte-Chapelle, Notre-Dame, Tuileries, jazz at Le Caveau. Start early to fit it all. Need timing suggestions?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:49:00Z"
+    },
+    {
+      "message_id": "msg_031",
+      "user_message": "Yes, suggest timings for Day 4.",
+      "ai_response": "Day 4: Musée d’Orsay (9:30 AM–12 PM), Sainte-Chapelle (12:30–1:30 PM), Notre-Dame (2–3 PM), Tuileries (3:30–5 PM), Le Caveau (9 PM). Want dining options for this day?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:50:00Z"
+    },
+    {
+      "message_id": "msg_032",
+      "user_message": "Yes, affordable lunch and dinner for Day 4.",
+      "ai_response": "Lunch: Chez Janou near Sainte-Chapelle, pastas for €10–12. Dinner: Le Mistral near Tuileries, pizzas for €9–13. Want their addresses?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:51:00Z"
+    },
+    {
+      "message_id": "msg_033",
+      "user_message": "Yes, give me the addresses.",
+      "ai_response": "Chez Janou: 2 Rue Roger Verlomme, 75003 Paris. Le Mistral: 2 Place de la Porte Maillot, 75017 Paris. Need more Day 4 tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:52:00Z"
+    },
+    {
+      "message_id": "msg_034",
+      "user_message": "Any photo spots on Day 4?",
+      "ai_response": "Sainte-Chapelle’s stained glass and Notre-Dame’s facade are perfect for photos. Sunset at Tuileries offers great shots too. Want camera tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:53:00Z"
+    },
+    {
+      "message_id": "msg_035",
+      "user_message": "Yes, any quick camera tips?",
+      "ai_response": "Use portrait mode for Notre-Dame details, wide-angle for Sainte-Chapelle interiors, and golden hour light (around 7 PM) at Tuileries. Want more photography spots?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:54:00Z"
+    },
+    {
+      "message_id": "msg_036",
+      "user_message": "Yes, one more photo spot.",
+      "ai_response": "Pont Alexandre III bridge, near Day 4’s route, is iconic for photos, especially at dusk. Want to add it to the itinerary?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:55:00Z"
+    },
+    {
+      "message_id": "msg_037",
+      "user_message": "Add it to Day 4.",
+      "ai_response": "Updated Day 4: Musée d’Orsay (9:30 AM–12 PM), Sainte-Chapelle (12:30–1:30 PM), Notre-Dame (2–3 PM), Pont Alexandre III (3:30–4 PM), Tuileries (4:30–5 PM), Le Caveau (9 PM). Need more tweaks?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:56:00Z"
+    },
+    {
+      "message_id": "msg_038",
+      "user_message": "Looks good. What about shopping in Paris?",
+      "ai_response": "For budget shopping, try Les Halles for trendy clothes or Galeries Lafayette for deals on sale racks. Interested in specific stores?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:57:00Z"
+    },
+    {
+      "message_id": "msg_039",
+      "user_message": "Yes, affordable clothing stores.",
+      "ai_response": "Zara at Les Halles (1 Rue Pierre Lescot) and H&M at Forum des Halles have items under €30. Open 10 AM–8 PM. Want to add shopping to a day?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:58:00Z"
+    },
+    {
+      "message_id": "msg_040",
+      "user_message": "Add shopping to Day 5.",
+      "ai_response": "Updated Day 5: Montmartre, Sacré-Cœur (morning), shopping at Les Halles (afternoon). Want specific store hours or more Day 5 activities?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T11:59:00Z"
+    },
+    {
+      "message_id": "msg_041",
+      "user_message": "Store hours, please.",
+      "ai_response": "Zara and H&M at Les Halles: 10 AM–8 PM daily. Arrive by 2 PM to avoid crowds. Need lunch spots near Les Halles?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:00:00Z"
+    },
+    {
+      "message_id": "msg_042",
+      "user_message": "Yes, lunch near Les Halles.",
+      "ai_response": "Le Coq Rico (98 Rue Saint-Denis) offers chicken dishes for €12–15. Open 12–2:30 PM. Want more options?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:01:00Z"
+    },
+    {
+      "message_id": "msg_043",
+      "user_message": "One more lunch option.",
+      "ai_response": "Bistro Victoires (6 Rue de la Vrillière) has French classics for €10–14. Open 12–3 PM. Want to add it to Day 5?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:02:00Z"
+    },
+    {
+      "message_id": "msg_044",
+      "user_message": "Yes, add Bistro Victoires to Day 5.",
+      "ai_response": "Updated Day 5: Montmartre, Sacré-Cœur (morning), lunch at Bistro Victoires (12–1:30 PM), shopping at Les Halles (2–5 PM). Need evening plans?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:03:00Z"
+    },
+    {
+      "message_id": "msg_045",
+      "user_message": "Yes, evening plans for Day 5.",
+      "ai_response": "Watch a sunset from Montmartre’s steps (free) or visit a local bar like Le Consulat for drinks (€5–8). Want more details?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:04:00Z"
+    },
+    {
+      "message_id": "msg_046",
+      "user_message": "Details on Le Consulat.",
+      "ai_response": "Le Consulat (18 Rue Norvins) is a historic café with cozy vibes, serving wine and cocktails for €5–8. Open until 2 AM. Want to reserve a spot?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:05:00Z"
+    },
+    {
+      "message_id": "msg_047",
+      "user_message": "No reservations. Any other evening ideas?",
+      "ai_response": "Stroll Place du Tertre for street art or catch a movie at Studio 28 cinema for €9. Want more on the cinema?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:06:00Z"
+    },
+    {
+      "message_id": "msg_048",
+      "user_message": "Tell me about Studio 28.",
+      "ai_response": "Studio 28 (10 Rue Tholozé) is a charming Montmartre cinema with indie films. Shows at 7 PM and 9 PM, €9 tickets. Want to add it to Day 5?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:07:00Z"
+    },
+    {
+      "message_id": "msg_049",
+      "user_message": "Yes, add the 7 PM show to Day 5.",
+      "ai_response": "Updated Day 5: Montmartre, Sacré-Cœur (morning), lunch at Bistro Victoires (12–1:30 PM), shopping at Les Halles (2–5 PM), Studio 28 movie (7 PM). Need transport tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:08:00Z"
+    },
+    {
+      "message_id": "msg_050",
+      "user_message": "Yes, transport to Studio 28.",
+      "ai_response": "From Les Halles, take Metro Line 4 to Abbesses, then walk 5 minutes to Studio 28 (10 Rue Tholozé). €2 ticket. Need more Day 5 tweaks?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:09:00Z"
+    },
+    {
+      "message_id": "msg_051",
+      "user_message": "No tweaks. What about Day 6 evening?",
+      "ai_response": "After your Parc des Buttes-Chaumont picnic, enjoy a free concert at La Bellevilloise (19 Rue Boyer) if available, or relax at Canal Saint-Martin. Want event details?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:10:00Z"
+    },
+    {
+      "message_id": "msg_052",
+      "user_message": "Tell me about Canal Saint-Martin.",
+      "ai_response": "Canal Saint-Martin is great for evening walks, with trendy bars like Le Comptoir Général (drinks €5–8). Open until midnight. Want bar details?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:11:00Z"
+    },
+    {
+      "message_id": "msg_053",
+      "user_message": "Yes, details on Le Comptoir Général.",
+      "ai_response": "Le Comptoir Général (80 Quai de Jemmapes) has a quirky, retro vibe with cocktails for €6–8. Open 6 PM–2 AM. Want to add it to Day 6?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:12:00Z"
+    },
+    {
+      "message_id": "msg_054",
+      "user_message": "Yes, add it to Day 6.",
+      "ai_response": "Updated Day 6: Parc des Buttes-Chaumont picnic (afternoon), Le Comptoir Général (evening, 7–9 PM). Need dinner options nearby?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:13:00Z"
+    },
+    {
+      "message_id": "msg_055",
+      "user_message": "Yes, dinner near Canal Saint-Martin.",
+      "ai_response": "Le Verre Volé (67 Rue de Lancry) offers French dishes for €12–15. Open 7–10 PM. Want another option?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:14:00Z"
+    },
+    {
+      "message_id": "msg_056",
+      "user_message": "Yes, one more dinner option.",
+      "ai_response": "Chez Prune (36 Rue Beaurepaire) has bistro fare for €10–14. Open 7–11 PM. Want to add one to Day 6?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:15:00Z"
+    },
+    {
+      "message_id": "msg_057",
+      "user_message": "Add Chez Prune to Day 6.",
+      "ai_response": "Updated Day 6: Parc des Buttes-Chaumont picnic (afternoon), dinner at Chez Prune (7–8:30 PM), Le Comptoir Général (9–11 PM). Need more Day 6 ideas?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:16:00Z"
+    },
+    {
+      "message_id": "msg_058",
+      "user_message": "No, what about Day 7 evening?",
+      "ai_response": "After Petit Palais and the walking tour, visit Shakespeare and Company bookstore for a free reading event, or sip wine at Le Baron Rouge (€4–6). Interested?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:17:00Z"
+    },
+    {
+      "message_id": "msg_059",
+      "user_message": "Tell me about the bookstore.",
+      "ai_response": "Shakespeare and Company (37 Rue de la Bûcherie) hosts free readings most evenings at 7 PM. Cozy vibe, English books. Want to add it to Day 7?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:18:00Z"
+    },
+    {
+      "message_id": "msg_060",
+      "user_message": "Yes, add it to Day 7.",
+      "ai_response": "Updated Day 7: Petit Palais (morning), walking tour (afternoon), Shakespeare and Company reading (7–8:30 PM). Need dinner plans?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:19:00Z"
+    },
+    {
+      "message_id": "msg_061",
+      "user_message": "Yes, dinner for Day 7.",
+      "ai_response": "Le Caveau du Palais (19 Place Dauphine) offers French dishes for €12–15. Open 7–10 PM. Want another option?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:20:00Z"
+    },
+    {
+      "message_id": "msg_062",
+      "user_message": "Yes, another dinner option.",
+      "ai_response": "Au Vieux Paris d’Arcole (24 Rue Chanoinesse) has quaint vibes, meals for €11–14. Open 6–10 PM. Want to add one?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:21:00Z"
+    },
+    {
+      "message_id": "msg_063",
+      "user_message": "Add Au Vieux Paris to Day 7.",
+      "ai_response": "Updated Day 7: Petit Palais (morning), walking tour (afternoon), dinner at Au Vieux Paris (6–7:30 PM), Shakespeare and Company (7:30–9 PM). Need more ideas?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:22:00Z"
+    },
+    {
+      "message_id": "msg_064",
+      "user_message": "Any souvenir ideas?",
+      "ai_response": "Buy postcards (€1–2) at museum shops, lavender sachets (€5) from street markets, or a beret (€10–15) from Galeries Lafayette. Want specific shops?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:23:00Z"
+    },
+    {
+      "message_id": "msg_065",
+      "user_message": "Yes, shops for postcards.",
+      "ai_response": "Musée d’Orsay gift shop (1 Rue de la Légion d’Honneur) or Louvre shop (75001 Paris) have postcards for €1–3. Open 10 AM–6 PM. Want to add shopping to a day?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:24:00Z"
+    },
+    {
+      "message_id": "msg_066",
+      "user_message": "Add postcard shopping to Day 4.",
+      "ai_response": "Updated Day 4: Musée d’Orsay (9:30 AM–12 PM, buy postcards), Sainte-Chapelle (12:30–1:30 PM), Notre-Dame (2–3 PM), Pont Alexandre III (3:30–4 PM), Tuileries (4:30–5 PM), Le Caveau (9 PM). Need more tweaks?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:25:00Z"
+    },
+    {
+      "message_id": "msg_067",
+      "user_message": "No tweaks. Any safety tips for Paris?",
+      "ai_response": "Avoid flashy jewelry, keep bags zipped, and stick to well-lit areas at night. Metro is safe but watch for pickpockets. Want more details?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:26:00Z"
+    },
+    {
+      "message_id": "msg_068",
+      "user_message": "Yes, pickpocket tips.",
+      "ai_response": "Use a crossbody bag, keep wallets in front pockets, and avoid crowded Metro cars during rush hour. Want emergency contacts?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:27:00Z"
+    },
+    {
+      "message_id": "msg_069",
+      "user_message": "Yes, emergency contacts.",
+      "ai_response": "Police: 17, Medical: 15, US Embassy: 01 43 12 22 22. Save these in your phone. Need more travel tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:28:00Z"
+    },
+    {
+      "message_id": "msg_070",
+      "user_message": "Yes, packing tips for September.",
+      "ai_response": "Pack layers (light jacket, sweaters), comfy shoes, and an umbrella. Temps range 50–70°F. Want a packing list?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:29:00Z"
+    },
+    {
+      "message_id": "msg_071",
+      "user_message": "Yes, a packing list.",
+      "ai_response": "5 shirts, 2 sweaters, 1 jacket, 3 pants, 1 scarf, 1 umbrella, comfy shoes, charger, passport. Want tips for carry-on only?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:30:00Z"
+    },
+    {
+      "message_id": "msg_072",
+      "user_message": "Yes, carry-on tips.",
+      "ai_response": "Use packing cubes, roll clothes, and limit shoes to two pairs. Stick to 100ml liquids in a clear bag. Need airline recommendations?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:31:00Z"
+    },
+    {
+      "message_id": "msg_073",
+      "user_message": "Yes, budget airlines to Paris.",
+      "ai_response": "Ryanair and EasyJet offer flights from major cities to Paris for €50–100. Book early on their sites. Want airport transfer tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:32:00Z"
+    },
+    {
+      "message_id": "msg_074",
+      "user_message": "Yes, transfers from Charles de Gaulle.",
+      "ai_response": "Take RER B train to central Paris (€11, 30–40 min) or RoissyBus (€13, 1 hr). Taxis cost €50–60. Need hotel suggestions?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:33:00Z"
+    },
+    {
+      "message_id": "msg_075",
+      "user_message": "Yes, budget hotels in Montmartre.",
+      "ai_response": "Hotel Audran (€80/night, 26 Rue des Abbesses) or Hotel Regyn’s (€85/night, 18 Place des Abbesses). Want booking links?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:34:00Z"
+    },
+    {
+      "message_id": "msg_076",
+      "user_message": "Yes, links for Hotel Audran.",
+      "ai_response": "Book Hotel Audran at https://hotelaudran.com/. Check for deals. Need Airbnb options too?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:35:00Z"
+    },
+    {
+      "message_id": "msg_077",
+      "user_message": "Yes, Airbnb options in Montmartre.",
+      "ai_response": "Search Airbnb for Montmartre studios, €60–90/night. Filter for Wi-Fi and kitchen. Want a specific listing example?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:36:00Z"
+    },
+    {
+      "message_id": "msg_078",
+      "user_message": "Yes, an example listing.",
+      "ai_response": "Example: ‘Cozy Montmartre Studio’ on Airbnb, €75/night, near Abbesses Metro. Includes kitchen, Wi-Fi. Check airbnb.com. Want more examples?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:37:00Z"
+    },
+    {
+      "message_id": "msg_079",
+      "user_message": "No, that’s fine. Any language tips for Paris?",
+      "ai_response": "Learn basic French phrases: ‘Bonjour’ (hello), ‘Merci’ (thank you), ‘S’il vous plaît’ (please). Locals appreciate the effort. Want a phrase list?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:38:00Z"
+    },
+    {
+      "message_id": "msg_080",
+      "user_message": "Yes, a short phrase list.",
+      "ai_response": "Bonjour (hello), Merci (thank you), S’il vous plaît (please), Où est…? (where is…?), Combien? (how much?). Want pronunciation tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:39:00Z"
+    },
+    {
+      "message_id": "msg_081",
+      "user_message": "Yes, pronunciation tips.",
+      "ai_response": "Bonjour: bon-ZHOOR. Merci: MAIR-see. S’il vous plaît: see voo PLAY. Où est: oo AY. Combien: KOM-bee-en. Practice slowly. Want more phrases?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:40:00Z"
+    },
+    {
+      "message_id": "msg_082",
+      "user_message": "No, that’s enough. Any cultural tips?",
+      "ai_response": "Greet with ‘Bonjour’ before asking for help, tip 5–10% at restaurants, and avoid loud conversations in public. Want more etiquette tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:41:00Z"
+    },
+    {
+      "message_id": "msg_083",
+      "user_message": "Yes, more etiquette tips.",
+      "ai_response": "Keep personal space in lines, say ‘Pardon’ if you bump someone, and avoid eating on the go except in casual areas. Need dining etiquette?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:42:00Z"
+    },
+    {
+      "message_id": "msg_084",
+      "user_message": "Yes, dining etiquette.",
+      "ai_response": "Keep hands on the table (not lap), don’t rush meals, and signal for the check (‘L’addition’). Want restaurant reservation tips?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:43:00Z"
+    },
+    {
+      "message_id": "msg_085",
+      "user_message": "Yes, reservation tips.",
+      "ai_response": "Book 1–2 weeks ahead for popular spots, use LaFourchette app for deals, and confirm by phone in French if possible. Need app details?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:44:00Z"
+    },
+    {
+      "message_id": "msg_086",
+      "user_message": "Yes, app details.",
+      "ai_response": "LaFourchette (TheFork) offers restaurant bookings with discounts up to 50%. Download from app stores or use thefork.fr. Want specific restaurant suggestions?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:45:00Z"
+    },
+    {
+      "message_id": "msg_087",
+      "user_message": "Yes, one more restaurant for Day 3.",
+      "ai_response": "Add Le Coq Rico (98 Rue Saint-Denis) for dinner after the food tour, €12–15 dishes. Open 7–10 PM. Want to update the itinerary?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:46:00Z"
+    },
+    {
+      "message_id": "msg_088",
+      "user_message": "Yes, update Day 3.",
+      "ai_response": "Updated Day 3: Le Marais food tour (morning), dinner at Le Coq Rico (7–8:30 PM). Need transport or more Day 3 plans?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:47:00Z"
+    },
+    {
+      "message_id": "msg_089",
+      "user_message": "Transport for Day 3.",
+      "ai_response": "Take Metro Line 1 to Saint-Paul for Le Marais (€2), then walk to Le Coq Rico (10 min). Need evening activities for Day 3?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:48:00Z"
+    },
+    {
+      "message_id": "msg_090",
+      "user_message": "Yes, evening for Day 3.",
+      "ai_response": "Visit Le Perchoir Marais rooftop bar (37 Rue de la Verrerie) for drinks (€6–10). Open 8 PM–2 AM. Want to add it?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:49:00Z"
+    },
+    {
+      "message_id": "msg_091",
+      "user_message": "Yes, add it to Day 3.",
+      "ai_response": "Updated Day 3: Le Marais food tour (morning), dinner at Le Coq Rico (7–8:30 PM), Le Perchoir Marais (9–11 PM). Need more tweaks?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:50:00Z"
+    },
+    {
+      "message_id": "msg_092",
+      "user_message": "No tweaks. Any weather tips for September?",
+      "ai_response": "Expect mild weather, 50–70°F, with occasional rain. Check meteoparis.com daily. Want a backup plan for rain?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:51:00Z"
+    },
+    {
+      "message_id": "msg_093",
+      "user_message": "Yes, rainy day plans.",
+      "ai_response": "Visit covered passages like Galerie Vivienne or spend a day at Centre Pompidou (€14). Want to add one to a day?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:52:00Z"
+    },
+    {
+      "message_id": "msg_094",
+      "user_message": "Add Galerie Vivienne to Day 2.",
+      "ai_response": "Updated Day 2: Louvre (morning), Seine cruise (afternoon), Galerie Vivienne (late afternoon). Need timing or dining nearby?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:53:00Z"
+    },
+    {
+      "message_id": "msg_095",
+      "user_message": "Dining near Galerie Vivienne.",
+      "ai_response": "Le Bouillon Chartier (7 Rue du Faubourg Montmartre) offers French classics for €10–12. Open 11:30 AM–midnight. Want to add it?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:54:00Z"
+    },
+    {
+      "message_id": "msg_096",
+      "user_message": "Yes, add it to Day 2.",
+      "ai_response": "Updated Day 2: Louvre (morning), Seine cruise (afternoon), Galerie Vivienne (late afternoon), dinner at Le Bouillon Chartier (7–8:30 PM). Need more Day 2 plans?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:55:00Z"
+    },
+    {
+      "message_id": "msg_097",
+      "user_message": "No, give me a final itinerary summary.",
+      "ai_response": "Day 1: Eiffel Tower, Champ de Mars. Day 2: Louvre, Seine cruise, Galerie Vivienne, Le Bouillon Chartier. Day 3: Le Marais food tour, Le Coq Rico, Le Perchoir Marais. Day 4: Musée d’Orsay (postcards), Sainte-Chapelle, Notre-Dame, Pont Alexandre III, Tuileries, Le Caveau. Day 5: Montmartre, Sacré-Cœur, Bistro Victoires, Les Halles shopping, Studio 28. Day 6: Parc des Buttes-Chaumont picnic, Chez Prune, Le Comptoir Général. Day 7: Petit Palais, walking tour, Au Vieux Paris, Shakespeare and Company. Want a final budget check?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:56:00Z"
+    },
+    {
+      "message_id": "msg_098",
+      "user_message": "Yes, final budget check.",
+      "ai_response": "Accommodation: €700. Food: €400 (meals, picnic). Attractions: €120 (Louvre, Musée d’Orsay, cruise, Sainte-Chapelle, cinema). Transport: €60 (Metro). Jazz/bar: €35. Total: €1315, leaving €685 buffer. Need anything else?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:57:00Z"
+    },
+    {
+      "message_id": "msg_099",
+      "user_message": "Looks good. Any last tips?",
+      "ai_response": "Download offline maps, carry a reusable water bottle, and keep a small cash stash (€50). Have a great trip! Need anything more?",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:58:00Z"
+    },
+    {
+      "message_id": "msg_100",
+      "user_message": "No, that’s all. Thanks!",
+      "ai_response": "You’re welcome! Enjoy Paris! Let me know if you need more help later.",
+      "status": "delivered",
+      "timestamp": "2025-08-24T12:59:00Z"
+    }
+  ]
+}
