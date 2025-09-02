@@ -23,9 +23,9 @@ export default function WallPoster1() {
               </div>
 
               <CardContent className="p-0">
-                <h2 className="text-lg sm:text-xl font-semibold">
+                <h3 className="text-base sm:text-xl font-semibold">
                   {person.person_name}
-                </h2>
+                </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300 mt-3 line-clamp-4">
                   {person.description}
                 </p>
