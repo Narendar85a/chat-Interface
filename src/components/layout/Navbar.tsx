@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="hidden md:flex fixed top-[64px] left-0 h-[calc(100vh-64px)] w-64 bg-gray-50 dark:bg-gray-950 border-r p-4 flex-col gap-3">
+      <div className="hidden md:flex fixed top-[60px] left-0 h-[calc(100vh-60px)] w-64 bg-gray-50 dark:bg-gray-900 border-r p-4 flex-col gap-3">
         <Link href="/" className={linkClasses("/")}>
           <Home className="w-5 h-5" />
           <span>Home</span>

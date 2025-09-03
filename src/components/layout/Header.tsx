@@ -23,7 +23,7 @@ export default function Header() {
       <header
         className="fixed top-0 left-0 w-full flex items-center justify-between 
                    px-4 sm:px-6 py-2 sm:py-3 
-                   bg-background shadow-md dark:shadow-lg z-50"
+                   shadow-md bg-gray-50 dark:bg-gray-900 dark:shadow-lg z-50"
       >
         <div className="flex items-center gap-3">
           {/* Mobile menu button */}
